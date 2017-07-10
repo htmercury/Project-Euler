@@ -21,3 +21,18 @@ function findPrimeFactor(int) {
 console.log(findPrimeFactor(13195));
 // function above only works well for numbers less than 6 digits
 
+// To accomodate for possible prime factors pass 99, new function will just increment by a set amount for all possibilites
+function findPrimeFactor2(int) {
+    var factor = 2;
+    var acc = int;
+    while (factor !== acc){
+        if (acc%factor === 0) {
+            acc /= factor;
+        }
+        else {
+            factor++
+        }
+    }
+    return factor
+}
+console.log(findPrimeFactor2(600851475143));

@@ -2,6 +2,8 @@
 // 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97
 var primedb = [2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97]; // store prime values up to 100
 function findPrimeFactor(int) {
+    // input: Some integer to find the prime factor of
+    // output: Returns the largest prime factor of that integer
     var factor = 0;
     var ii = 0;
     var acc = int;
@@ -23,6 +25,8 @@ console.log(findPrimeFactor(13195));
 
 // To accomodate for possible prime factors pass 99, new function will just increment by a set amount for all possibilites
 function findPrimeFactor2(int) {
+    // input: Some integer to find the prime factor of
+    // output: Returns the largest prime factor of that integer
     var factor = 2;
     var acc = int;
     while (factor !== acc){

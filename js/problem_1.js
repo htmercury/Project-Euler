@@ -20,6 +20,8 @@ mult_35a(1000);
 
 // Shortened brute force method (less loops)
 function mult_35b(int) {
+    // input: integer specifying max threshhold
+    // output: sum of all multiples of 3 or 5 below some integer
     var sum = 0;
     for (var ii = 1; ii <= Math.floor(int/3); ii++) {
         if (ii*5%3 === 0) { //Avoids double count

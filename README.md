@@ -5,4 +5,8 @@ Project Euler is a series of challenging mathematical/computer programming probl
 
 If you wish to learn more about Project Euler, please visit their [website](https://projecteuler.net/about)
 
-Current Languages used to solve so far: JavaScript,
+Current Languages used to solve so far: 
+- JavaScript
+
+\
+Problems 1-4 are located in the js folder

@@ -9,4 +9,5 @@ Current Languages used to solve so far:
 - JavaScript
 
 \
-Problems 1-4 are located in the js folder
+Problems completed:
+- 1 - 4 (Located in js)

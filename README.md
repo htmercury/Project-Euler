@@ -10,4 +10,4 @@ Current Languages used to solve so far:
 
 \
 Problems completed:
-- 1 - 4 (Located in js)
+- 1 - 4 (Located in js directory)

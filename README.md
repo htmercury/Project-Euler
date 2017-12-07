@@ -8,6 +8,9 @@ If you wish to learn more about Project Euler, please visit their [website](http
 Current Languages used to solve so far: 
 - JavaScript
 
-\
 Problems completed:
 - 1 - 4 (Located in js directory)
+
+## Authors
+
+* **Ka Wong** - *Solver* - [Htmercury](https://github.com/htmercury)
